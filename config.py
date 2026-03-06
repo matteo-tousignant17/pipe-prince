@@ -7,8 +7,8 @@ class Settings(BaseSettings):
     SHADOW_MODE: bool = True
     LOG_LEVEL: str = "INFO"
 
-    # Database
-    DATABASE_URL: str = "sqlite:///./pipestream.db"
+    # Database — defaults to /tmp on Vercel (only writable path in serverless)
+    DATABASE_URL: str = "sqlite:////tmp/pipestream.db"
 
     # Anthropic
     ANTHROPIC_API_KEY: str = "placeholder"

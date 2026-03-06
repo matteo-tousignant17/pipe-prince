@@ -19,7 +19,8 @@ from models.load import Load
 
 logger = logging.getLogger(__name__)
 
-PDF_OUTPUT_DIR = "./pdfs"
+# Use /tmp on Vercel (only writable path); falls back to ./pdfs locally
+PDF_OUTPUT_DIR = os.environ.get("PDF_OUTPUT_DIR", "/tmp/pdfs")
 
 _BRAND_COLOR = colors.HexColor("#1a3a5c")
 _ACCENT_COLOR = colors.HexColor("#e8700a")

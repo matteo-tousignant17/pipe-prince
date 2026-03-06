@@ -1,0 +1,24 @@
+From: John Smith <john@dsvbrokerage.com>
+To: Matteo <matteo@pipeprince.com>
+Subject: Load Quote - OKC to Dallas
+
+Hi Matteo,
+
+Got a load available for you. Here are the details:
+
+CARGO: 230 joints of 2 7/8" 6.5# Range 2 structural tubing
+ORIGIN: Oklahoma City, OK (Ouachita Valley Yard)
+DESTINATION: Dallas, TX
+TOTAL MILES: 205
+RATE: $950.00 flat
+PICKUP DATE: 2026-03-10 at 09:00 AM
+
+Broker: DSV Brokerage
+Contact: john@dsvbrokerage.com
+
+Please send rate confirmation at your earliest convenience.
+
+Thanks,
+John Smith
+DSV Brokerage
+(555) 123-4567

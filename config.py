@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     SLACK_BOT_TOKEN: str = "placeholder"
     SLACK_SIGNING_SECRET: str = "placeholder"
     SLACK_CHANNEL_ID: str = "C0000000000"
-    SLACK_PAT_USER_ID: str = "U0000000000"
+    SLACK_VALIDATOR_IDS: str = "U0000000000"  # comma-separated: Pat, Jack, etc.
     SLACK_MATTEO_USER_ID: str = "U0000000001"
 
     # Inbound webhook
